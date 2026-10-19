@@ -43,6 +43,12 @@
   说明：账号目前是 0 仓库、0 提交，现在启用会显示 Commits: 0、
        语言分布空白，反而扣分。等有 3 个仓库、几十次提交后，
        删掉这一整段的首尾注释标记、并保留以下 4 个 img 即可。
+
+  ⚠️ 网络实测（2026.10）：github-readme-stats.vercel.app 与
+     github-profile-trophy.vercel.app 在本机网络下连接超时，
+     启用前请改为自建实例或换成可达的镜像域名，否则会显示破图。
+     本项目已生效的 readme-typing-svg.demolab.com、img.shields.io、
+     komarev.com 均实测可达。
   ═══════════════════════════════════════════════════════════════
 
 <div align="center">
