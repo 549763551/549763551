@@ -3,13 +3,14 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2800&pause=800&color=FF79C6&center=true&vCenter=true&width=620&lines=Hi%2C+I%27m+Ding+Chen;Turning+one+sentence+into+real+results;Two+projects%2C+two+totally+different+problems" alt="Ding Chen">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2800&pause=800&color=FF79C6&center=true&vCenter=true&width=620&lines=Hi%2C+I%27m+Ding+Chen;Turning+one+sentence+into+real+results;Three+projects%2C+three+different+problems" alt="Ding Chen">
 </p>
 
 <p align="center">
   <a href="mailto:dc59763551@163.com"><img src="https://img.shields.io/badge/Email-dc59763551%40163.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
   <a href="https://github.com/549763551"><img src="https://img.shields.io/badge/GitHub-549763551-8B5CF6?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
   <a href="https://549763551.github.io/spider-solitaire/"><img src="https://img.shields.io/badge/Live%20Demo-Spider%20Solitaire-22C55E?style=for-the-badge&logo=githubpages&logoColor=white" alt="Live Demo"></a>
+  <a href="https://549763551.github.io/vision-selector/home.html"><img src="https://img.shields.io/badge/Live%20Demo-视觉选型工具集-2EA44F?style=for-the-badge&logo=githubpages&logoColor=white" alt="Live Demo"></a>
   <img src="https://komarev.com/ghpvc/?username=549763551&style=for-the-badge&color=DB2777&label=VISITORS" alt="Visitors">
 </p>
 
@@ -20,12 +21,13 @@
 ### 🌈 About · 关于我
 
 - 🛰 **正在构建** — **GeoAgent**：把遥感分析从「写脚本」变成「说一句话」
+- 🔭 **也在做** — **机器视觉选型工具集**：输入检测需求自动推导「相机 + 镜头 + 光源」方案，配 1672 个型号的产品库
 - 🃏 **也在做** — 一个零依赖的纯前端纸牌游戏，顺手把前端基本功练一遍
 - 🧠 **关注** — 智能体的任务规划与工具调度、栅格数据处理、可交互的 Web 界面
 - 💡 **做事方式** — 先把东西做出来，再把它做好
 
 <p align="center">
-  <sub>一个偏后端重计算（Python · 栅格数据 · LLM 编排），一个偏前端轻交互（原生 JS · 零依赖）——两边都在练。</sub>
+  <sub>一个偏后端重计算（Python · 栅格数据 · LLM 编排），一个偏领域算法 + 数据整理（光学算路 · 型号库抽取），一个偏前端轻交互（原生 JS · 零依赖）——三条线都在练。</sub>
 </p>
 
 ### 🚀 Selected Work · 精选项目
@@ -48,6 +50,23 @@
 <p align="left">
   <a href="https://github.com/549763551/geoagent"><img src="https://img.shields.io/badge/源码-geoagent-181717?style=flat-square&logo=github&logoColor=white" alt="repo"></a>
   <img src="https://img.shields.io/badge/实测-离线模式%200.9s%20出图-22C55E?style=flat-square" alt="bench">
+</p>
+
+#### 🔭 机器视觉选型工具集 · 选型助手 + 产品库
+
+输入视野、精度、检测任务、材质、节拍，自动推导一套**可直接询价的「相机 + 镜头 + 光源」方案**，并把每一步算术摊开供复核；配套产品库覆盖四品牌 **1672 个型号**的全参数查询。
+
+- **选型引擎**：多品牌按匹配度选最优（精度余量 / 景深 / 衍射 / 曝光 / 带宽综合评分），支持跨品牌等价替换、大口径转接环、线扫 / 远心自动建议
+- **型号库**：949 台面阵相机、156 支镜头、44 台线阵、473 款光源、43 款控制器，全部由脚本从官方 PDF 型录抽取（`tools/parse-*`），可重复生成
+- **产品库**：分类筛选 + 关键词搜索 + 全参数详情，型号示意图按真实参数绘制，移动端自适应
+- **78 个单元测试** + GitHub Actions CI；纯前端零依赖，离线双击即用
+
+`JavaScript` `纯前端` `PDF 数据抽取` `GitHub Actions` `MIT`
+
+<p align="left">
+  <a href="https://549763551.github.io/vision-selector/home.html"><img src="https://img.shields.io/badge/在线使用-主页入口-2EA44F?style=flat-square&logo=googlechrome&logoColor=white" alt="demo"></a>
+  <a href="https://github.com/549763551/vision-selector"><img src="https://img.shields.io/badge/源码-vision--selector-181717?style=flat-square&logo=github&logoColor=white" alt="repo"></a>
+  <img src="https://img.shields.io/badge/版本-v1.5.0-blue?style=flat-square" alt="version">
 </p>
 
 #### 🕷 Spider Solitaire · 纯前端蜘蛛纸牌
@@ -85,6 +104,7 @@
 
 ### ✨ Now · 最近
 
+- **2026.10** — **机器视觉选型工具集 v1.5.0**：新增产品库（1672 个型号全参数查询）与主页，选型助手移动端适配修复
 - **2026.10** — 开源 **GeoAgent**：遥感栅格分析智能体，含 11 个工具与离线降级
 - **2026.10** — **Spider Solitaire** 上线 GitHub Pages，可直接在线开局
 - **2026.10** — 建立 GitHub 主页，开始记录做过的东西
